@@ -1,0 +1,297 @@
+.typewriter h3 {
+  font-family: monospace; /* Web-safe typewriter-like font */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid gray; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}
+.divider_small 
+{
+    width: 80px;
+    height: 1px;
+    background-color:#ff305b;
+	margin:auto;
+}
+.divider_big
+{
+    width: 120px;
+    height: 1.7px;
+    background-color:#ff305b;
+	margin:auto;
+	margin-bottom:3.5px;
+    margin-top:3px;
+}
+.section-title
+{
+	margin-bottom:30px;
+	margin-top:30px;
+}
+.logo  
+{
+	color:#ff305b !important;
+	font-size:24px!important;
+}
+.home
+{
+	background-size:100% 100%;
+	background-image:url(../images/home/1.jpg);
+	height:800px;
+}
+.bgoverlay
+{
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.7);
+
+}
+.homeCaption 
+{
+	text-align:center; 
+ }
+.homeCaption h1
+{
+	color:#ff305b ;
+ }
+.homeCaption h3
+{
+	color:#fff ; 
+}
+
+.about
+{
+	padding-top:30px;
+}
+.about p
+{
+	 border-bottom: 1px dashed #999999;
+	 padding-bottom:20px;
+}
+.about h2
+{
+ 	 padding-top:20px;
+	 padding-left:10px;
+	position: relative;
+
+}
+
+.about h2:before
+{
+    content:"";
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:5px;
+    height:30px;
+    background-color:red;
+ 
+}
+.about button
+{
+	background-color:#ff305b !important;
+	border-color:#ff305b !important;
+	margin-top:20px;
+	margin-right:5px;
+}
+.img_border
+{
+    position:relative;
+    
+ 
+}
+.img_border:before
+{
+    content:"";
+	  border:12px solid gray;
+	z-index:-1;
+    position:absolute;
+   left:-40px;
+    top:-20px;
+    width:300px;
+    height:460px;
+ 
+}
+
+.img_overlay{
+ 
+    position:relative;
+    overflow:hidden;
+}
+ 
+.inside_overlay
+{
+    background-color:rgba(0,0,0,.5);
+    height:100%;
+    position:absolute;
+    bottom:100%;
+    width:100%;
+    transition:all 1s;
+	padding-left:20%;
+ 
+    
+}
+.Portfolio .inside_overlay
+{
+    background-color:rgba(0,0,0,.5);
+    height:90%;
+    position:absolute;
+    bottom:100%;
+    width:100%;
+	transition:all 0s;  
+}
+.inside_overlay img{
+    padding-top:80%;
+    width:12%;
+    
+}
+.img_overlay:hover .inside_overlay{
+    position: absolute;
+    bottom:0;
+	width:100%
+
+}
+
+
+.Services
+{
+	padding:30px;
+	margin-top:30px;
+	background-color:#f1f1f1;
+}
+.each_Service
+{	 
+	padding:10px;
+}
+.each_Service:hover
+{	 
+	background-color:#fff;
+}
+.Portfolio
+{
+	padding:30px;
+	margin-top:30px;
+	
+}
+.Portfolio img
+{
+ 	margin-top:30px;
+	
+}
+.Portfolio a
+{
+ 	color:#000;	
+}
+.Portfolio a:hover
+{
+ 	color:#ff305b;	
+}
+.THEnumbers
+{
+	padding:30px;
+	margin-top:30px;
+	background-color:#f1f1f1;
+}
+.each_num
+{	 
+	padding:10px;
+}
+.each_num img
+{	 
+	width:16%;
+	padding-bottom:5px;
+}
+
+
+.triangle-topleft
+{
+    position:relative;
+    
+ 
+}
+.triangle-topleft:before
+{
+    content:"";
+	border-top: 200px solid red;
+      border-right: 200px solid transparent;
+	  z-index:-1;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    width:0px;
+    height:0px;
+ 
+}
+
+
+.testimonial
+{
+	
+	margin-top:30px;
+}
+.testimonial h3
+{
+	padding-top:30px;
+}
+.testimonial p
+{
+	padding-bottom:30px;
+}
+.BGred
+{
+	background-color:#ff305b !important;
+	color:#ff305b !important;
+}
+.blog
+{
+	padding:30px;
+	margin-top:30px;
+	background-color:#f1f1f1;
+}
+.blog a
+{
+	 color:#000;
+	  text-decoration: none;
+}
+.blog a:hover
+{
+	 color:#ff305b;
+}
+.eachBlog
+{
+	margin-top:20px;
+}
+.contact button
+{
+	background-color:#ff305b !important;
+	border-color:#ff305b !important;
+}
+footer
+{
+	background-color:#000;
+	color:#fff;
+	padding:30px;
+}
+footer span
+{
+	color:#ff305b;
+}
+.social_media img
+{
+	width:25px;	
+	padding-bottom:10px;
+}	
