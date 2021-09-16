@@ -1,7 +1,9 @@
 # Landing Page Project
 
 ## Demo
-![ddddddt](/demo/img1.JPG)
+![ddddddt](/demo/result.JPG)
+![ddddddt](/demo/responsive.JPG)
+
 
 ## Table of Contents
 
