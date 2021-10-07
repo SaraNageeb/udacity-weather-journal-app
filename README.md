@@ -43,8 +43,10 @@ Explaning client and server side
 
 The API used from [open weather map](https://openweathermap.org).
 
-The user can open the project by installing the dependencies and open a new terminal
- make sure that the path is correct then type node server.js
- see a message the server is running on localhost: 3000
- on the browser go to [localhost:3000](http://localhost:3000).
- Insert zip code ,feelings click Generate the app will show temperature,current date ,feelings.  
+-  The user can open the project by installing the dependencies and open a new terminal.
+-  make sure that the path is correct then type node server.js.
+-  see a message the server is running on localhost: 3000.
+-  on the browser go to [localhost:3000](http://localhost:3000).
+-  Insert zip code ,feelings click Generate the app will show temperature,current date ,feelings.  
+
+
