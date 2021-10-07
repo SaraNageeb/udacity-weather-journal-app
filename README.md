@@ -1,13 +1,9 @@
-# Landing Page Project
+# The weather journal app
 
 ## Description
 
-The landing page project is dynamic and interactive navigation experience.
- The navigation bar is built dynamically every time the user creates a new section
- 
-The user will know which section is displayed as the section is active
- which means it looks different than other sections.
- When the user scrolls up and down the active section changes accordingly.
+The weather journal project is dynamic app that illustrates the temperature based on the zip code.
+ The user can enter the zip code and his or her feelings then the app will show temperature, current date and the feelings.
  
 This project is responsive it works on laptop, smart phones and iPad.
 
@@ -15,29 +11,40 @@ This project is responsive it works on laptop, smart phones and iPad.
  
 ## Demo
 
-![show screenshot of the landing page](/demo/result.JPG)
+![show screenshot of the weather journal app](/demo/result.JPG)
 
-![show screenshot of the landing page on phone and ipad ](/demo/responsive.JPG)
+![show screenshot of The weather journal app alert message ](/demo/alert.JPG)
 
 
-## Table of Contents
 
-- Landing Page Project
+## Installation
 
-- index.html
-- css
-    - styles.css
-- js
-    - app.js
-- demo 
-    - result.JPG
-    - responsive.JPG
-- README
+- node.js in the computer 
+
+- body parser version 1.19.0 
+
+- cors version  2.8.5 
+
+- express version  4.17.1
+
+
+
+## Program Used
+
+visual studio code
+
+
 
 ## Instructions
 
-The user can open the project simply by downloading the project and double click on index.html file.
- The css file to view the style of the project the colors and fonts etc. and java script code is in app.js file.
- Demo is just a two screenshots of the project it shows the result on laptop, smart phones and iPad.
- To fully understand the code comments are provided in each page.
+Explaning client and server side 
 
+![weather journal app client and server side](/demo/chart.JPG)
+
+The API used from [open weather map](https://openweathermap.org).
+
+The user can open the project by installing the dependencies and open a new terminal
+ make sure that the path is correct then type node server.js
+ see a message the server is running on localhost: 3000
+ on the browser go to [localhost:3000](http://localhost:3000).
+ Insert zip code ,feelings click Generate the app will show temperature,current date ,feelings.  
